@@ -1,0 +1,108 @@
+2021-05-01 11:08:16,183 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.setDriverClassName():480]: Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1336bac5
+
+2021-05-01 11:08:16,538 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1020]: HikariPool-1 - configuration:
+2021-05-01 11:08:16,541 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: allowPoolSuspension.............false
+2021-05-01 11:08:16,548 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: autoCommit......................true
+2021-05-01 11:08:16,549 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: catalog.........................none
+2021-05-01 11:08:16,549 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: connectionInitSql...............none
+2021-05-01 11:08:16,550 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: connectionTestQuery.............none
+2021-05-01 11:08:16,550 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: connectionTimeout...............30000
+2021-05-01 11:08:16,551 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: dataSource......................none
+2021-05-01 11:08:16,552 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: dataSourceClassName.............none
+2021-05-01 11:08:16,552 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: dataSourceJNDI..................none
+2021-05-01 11:08:16,553 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: dataSourceProperties............{password=<masked>}
+2021-05-01 11:08:16,554 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-05-01 11:08:16,554 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: healthCheckProperties...........{}
+2021-05-01 11:08:16,555 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: healthCheckRegistry.............none
+2021-05-01 11:08:16,555 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: idleTimeout.....................600000
+2021-05-01 11:08:16,556 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: initializationFailTimeout.......1
+2021-05-01 11:08:16,556 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: isolateInternalQueries..........false
+2021-05-01 11:08:16,557 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: jdbcUrl.........................jdbc:mysql://localhost/telme?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+2021-05-01 11:08:16,557 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: leakDetectionThreshold..........0
+2021-05-01 11:08:16,558 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: maxLifetime.....................1800000
+2021-05-01 11:08:16,558 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: maximumPoolSize.................30
+2021-05-01 11:08:16,559 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: metricRegistry..................none
+2021-05-01 11:08:16,559 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: metricsTrackerFactory...........none
+2021-05-01 11:08:16,560 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: minimumIdle.....................30
+2021-05-01 11:08:16,560 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: password........................<masked>
+2021-05-01 11:08:16,561 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: poolName........................"HikariPool-1"
+2021-05-01 11:08:16,561 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: readOnly........................false
+2021-05-01 11:08:16,562 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: registerMbeans..................false
+2021-05-01 11:08:16,563 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: scheduledExecutor...............none
+2021-05-01 11:08:16,564 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: schema..........................none
+2021-05-01 11:08:16,564 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: threadFactory...................internal
+2021-05-01 11:08:16,565 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: transactionIsolation............default
+2021-05-01 11:08:16,566 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: username........................"root"
+2021-05-01 11:08:16,566 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariConfig.logConfiguration():1052]: validationTimeout...............5000
+2021-05-01 11:08:16,567 INFO  MNL1-LPH5Y53M2 [restartedMain][17] - [HikariDataSource.getConnection():110]: HikariPool-1 - Starting...
+2021-05-01 11:08:16,727 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariPool.checkFailFast():545]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b797d6a
+2021-05-01 11:08:16,730 INFO  MNL1-LPH5Y53M2 [restartedMain][17] - [HikariDataSource.getConnection():123]: HikariPool-1 - Start completed.
+2021-05-01 11:08:16,846 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 housekeeper][24] - [HikariPool.logPoolState():411]: HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-05-01 11:08:16,856 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77669924
+2021-05-01 11:08:16,868 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@365b931f
+2021-05-01 11:08:16,873 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a701d8
+2021-05-01 11:08:16,878 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56746c50
+2021-05-01 11:08:16,884 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75cb4dff
+2021-05-01 11:08:16,889 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@523a5685
+2021-05-01 11:08:16,895 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34df83ea
+2021-05-01 11:08:16,900 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@480dab43
+2021-05-01 11:08:16,906 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b5eeec3
+2021-05-01 11:08:16,912 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@116e4564
+2021-05-01 11:08:16,918 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19340ab5
+2021-05-01 11:08:16,927 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2be70b82
+2021-05-01 11:08:16,936 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@717d5de9
+2021-05-01 11:08:16,941 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23c15a33
+2021-05-01 11:08:16,947 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23455f18
+2021-05-01 11:08:16,953 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31e31f1b
+2021-05-01 11:08:16,959 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54ee0112
+2021-05-01 11:08:16,982 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13026105
+2021-05-01 11:08:16,992 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b57c472
+2021-05-01 11:08:17,012 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4063608
+2021-05-01 11:08:17,017 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33d03d41
+2021-05-01 11:08:17,023 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61168e4f
+2021-05-01 11:08:17,031 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d5cf953
+2021-05-01 11:08:17,035 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4623184c
+2021-05-01 11:08:17,040 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34fd5fbe
+2021-05-01 11:08:17,045 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d93b057
+2021-05-01 11:08:17,050 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e52d5c
+2021-05-01 11:08:17,055 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2282f5ca
+2021-05-01 11:08:17,059 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool$PoolEntryCreator.call():709]: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9d18946
+2021-05-01 11:08:17,060 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection adder][25] - [HikariPool.logPoolState():411]: HikariPool-1 - After adding stats (total=30, active=0, idle=30, waiting=0)
+2021-05-01 11:08:17,629 INFO  MNL1-LPH5Y53M2 [restartedMain][17] - [HikariDataSource.close():350]: HikariPool-1 - Shutdown initiated...
+2021-05-01 11:08:17,630 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariPool.logPoolState():411]: HikariPool-1 - Before shutdown stats (total=30, active=0, idle=30, waiting=0)
+2021-05-01 11:08:17,632 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b797d6a: (connection evicted)
+2021-05-01 11:08:17,635 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77669924: (connection evicted)
+2021-05-01 11:08:17,636 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@365b931f: (connection evicted)
+2021-05-01 11:08:17,637 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a701d8: (connection evicted)
+2021-05-01 11:08:17,638 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56746c50: (connection evicted)
+2021-05-01 11:08:17,639 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@75cb4dff: (connection evicted)
+2021-05-01 11:08:17,640 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@523a5685: (connection evicted)
+2021-05-01 11:08:17,641 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34df83ea: (connection evicted)
+2021-05-01 11:08:17,642 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@480dab43: (connection evicted)
+2021-05-01 11:08:17,643 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b5eeec3: (connection evicted)
+2021-05-01 11:08:17,644 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@116e4564: (connection evicted)
+2021-05-01 11:08:17,645 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19340ab5: (connection evicted)
+2021-05-01 11:08:17,646 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2be70b82: (connection evicted)
+2021-05-01 11:08:17,647 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@717d5de9: (connection evicted)
+2021-05-01 11:08:17,648 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23c15a33: (connection evicted)
+2021-05-01 11:08:17,649 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23455f18: (connection evicted)
+2021-05-01 11:08:17,650 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31e31f1b: (connection evicted)
+2021-05-01 11:08:17,651 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54ee0112: (connection evicted)
+2021-05-01 11:08:17,652 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13026105: (connection evicted)
+2021-05-01 11:08:17,653 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b57c472: (connection evicted)
+2021-05-01 11:08:17,654 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4063608: (connection evicted)
+2021-05-01 11:08:17,654 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33d03d41: (connection evicted)
+2021-05-01 11:08:17,655 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@61168e4f: (connection evicted)
+2021-05-01 11:08:17,656 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d5cf953: (connection evicted)
+2021-05-01 11:08:17,656 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4623184c: (connection evicted)
+2021-05-01 11:08:17,657 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34fd5fbe: (connection evicted)
+2021-05-01 11:08:17,658 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d93b057: (connection evicted)
+2021-05-01 11:08:17,658 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e52d5c: (connection evicted)
+2021-05-01 11:08:17,659 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2282f5ca: (connection evicted)
+2021-05-01 11:08:17,659 DEBUG MNL1-LPH5Y53M2 [HikariPool-1 connection closer][26] - [PoolBase.quietlyCloseConnection():129]: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9d18946: (connection evicted)
+2021-05-01 11:08:17,660 DEBUG MNL1-LPH5Y53M2 [restartedMain][17] - [HikariPool.logPoolState():411]: HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-05-01 11:08:17,661 INFO  MNL1-LPH5Y53M2 [restartedMain][17] - [HikariDataSource.close():352]: HikariPool-1 - Shutdown completed.
