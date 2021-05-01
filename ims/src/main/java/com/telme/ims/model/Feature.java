@@ -1,6 +1,8 @@
 package com.telme.ims.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -9,10 +11,15 @@ import javax.persistence.Table;
 public class Feature {
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int featureid;
 	
 	private String provisioned;
 	private String destination;
+	
+	public Feature() {
+		
+	}
 	
 	public int getFeatureid() {
 		return featureid;
