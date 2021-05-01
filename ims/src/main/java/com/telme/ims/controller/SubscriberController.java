@@ -77,6 +77,7 @@ public class SubscriberController {
 		log.debug("putSubscriber() - Start");
 		
 		List<SubscriberFeature> subscriberFeatures = new ArrayList<SubscriberFeature>();
+		List<Integer> missingFeatures = new ArrayList<Integer>();
 		boolean isMissingFeature = false;
 		List<Feature> features = new ArrayList<Feature>();
 		for (Feature feature : subscriberBean.getFeatures()) {
@@ -90,6 +91,7 @@ public class SubscriberController {
 				subscriberFeatures.add(subscriberFeature);
 			} else {
 				isMissingFeature = true;
+				missingFeatures.add(feature.getFeatureid());
 			}
 		}
 		
@@ -99,6 +101,8 @@ public class SubscriberController {
 			if(subscriberService.putSubscriber(subscriber) != null) {
 				subscriberBeanReturn = new SubscriberBean(subscriber.getPhonenumber(), subscriber.getUsername(), subscriber.getPassword(), subscriber.getDomain(),subscriber.getStatus(), features);
 			}
+		} else {
+			log.debug("Invalid or Missing Feature! --> featureid = " + missingFeatures);
 		}
 
 		log.debug("putSubscriber() - Return");

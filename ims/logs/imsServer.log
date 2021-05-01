@@ -1,0 +1,7 @@
+2021-05-01 14:00:05,577 DEBUG MNL1-LPH5Y53M2 [http-nio-8081-exec-2][179] - [SubscriberController.putSubscriber():77]: putSubscriber() - Start
+2021-05-01 14:00:05,586 DEBUG MNL1-LPH5Y53M2 [http-nio-8081-exec-2][179] - [SqlStatementLogger.logStatement():94]: select feature0_.featureid as featurei1_0_0_, feature0_.destination as destinat2_0_0_, feature0_.provisioned as provisio3_0_0_ from feature feature0_ where feature0_.featureid=?
+2021-05-01 14:00:05,591 DEBUG MNL1-LPH5Y53M2 [http-nio-8081-exec-2][179] - [SubscriberController.putSubscriber():105]: Invalid or Missing Feature! --> featureid = [3]
+2021-05-01 14:00:05,591 DEBUG MNL1-LPH5Y53M2 [http-nio-8081-exec-2][179] - [SubscriberController.putSubscriber():108]: putSubscriber() - Return
+2021-05-01 14:00:23,944 DEBUG MNL1-LPH5Y53M2 [HikariPool-6 housekeeper][172] - [HikariPool.logPoolState():411]: HikariPool-6 - Pool stats (total=30, active=0, idle=30, waiting=0)
+2021-05-01 14:00:53,950 DEBUG MNL1-LPH5Y53M2 [HikariPool-6 housekeeper][172] - [HikariPool.logPoolState():411]: HikariPool-6 - Pool stats (total=30, active=0, idle=30, waiting=0)
+2021-05-01 14:01:23,954 DEBUG MNL1-LPH5Y53M2 [HikariPool-6 housekeeper][172] - [HikariPool.logPoolState():411]: HikariPool-6 - Pool stats (total=30, active=0, idle=30, waiting=0)

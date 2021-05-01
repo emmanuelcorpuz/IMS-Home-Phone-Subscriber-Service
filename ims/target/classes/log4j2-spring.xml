@@ -14,8 +14,8 @@
 		</Console>
 		
 		<RollingFile name="FileAppender"
-			fileName="logs/WahoServer.log"
-			filePattern="logs/WahoServer-%d{yyyy-MM-dd}-%i.log">
+			fileName="logs/imsServer.log"
+			filePattern="logs/imsServer-%d{yyyy-MM-dd}-%i.log">
 			<PatternLayout>
 				<Pattern>${LOG_PATTERN}</Pattern>
 			</PatternLayout>
@@ -30,7 +30,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Logger name="com.fisglobal.waho" level="debug"
+		<Logger name="com.telme.ims" level="debug"
 			additivity="false">
 			<AppenderRef ref="FileAppender"/>
 		</Logger>
