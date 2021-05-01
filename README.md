@@ -8,7 +8,7 @@ Add or update a subscriber identified by the provided phone number.
 - DELETE:       /ims/subscriber/{phoneNumber}
 Remove the subscriber identified by the phone number.
 
-Database:
+Database (MySQL):
 - you can run the telme.sql in \IMS-Home-Phone-Subscriber-Service\ims\src\main\resources directory for the creation of the database and tables, as well as the test data/records.
 
 Testing:
